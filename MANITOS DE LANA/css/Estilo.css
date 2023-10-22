@@ -1,0 +1,134 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@200&family=Sansita+Swashed:wght@300&display=swap');
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body{
+    color:white;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #774C4CB0;
+    
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  header{
+
+    width: 960px;
+    height: 180px;
+    margin: auto;
+    background-color: #774C4CB0;z
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  } 
+
+  header a{
+    color: aliceblue;
+    font-weight: normal;
+    padding: 8px;  
+  }
+
+  header img{
+    vertical-align: middle;
+  }
+  header nav{
+    align-self: end;
+  }
+  header nav a{
+    padding: 8px;
+    }
+
+  /* contenido principal*/
+  main{
+    width: 960px;
+    margin: auto;
+  }
+
+  /* seccion hero-banner*/
+
+  #hero-banner{
+    width: 960px;
+    height: 382px;
+    background-image: url(../imgs/baner\ recortado.jpg);
+    background-position: center center;
+
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    color: #523D0A;
+  }
+
+  #hero-banner h1{
+    font-size: 40px;
+    width: 357px;
+    height: 154px;
+   
+  }
+
+  /*seccion articulos*/
+
+  #articulos{
+    height: 365px;
+    background-color: #d2c7ae ;
+    margin-top: 42px;
+    padding: 23px 27px 24px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #articulos article{
+    width: 248px;
+    height: 318px;
+    background-color: rgba(255, 255, 255, 0.633);
+
+  }
+   #articulos article img{
+    padding: 16px 16px 0px 16px;
+   }
+
+   #articulos a article h2{
+    margin: 20px 20px 0px 20px;
+    color: #523D0A;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+  
+   }
+
+   footer{
+    width: 960px;
+    margin: 56px auto 0px auto;
+    padding: 0px 30px 0px 30px;
+    height: 220px;
+    align-items: center;
+    background-color:#583F3f;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    footer a{
+      color: white;
+    }
+      footer a img{
+        vertical-align: middle;
+        margin-right: 8px;
+      }   
+
+
+
+
+
